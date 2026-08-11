@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ping Pong</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <h1>Ping Pong</h1>
+    <p>Usa W y S para la paleta izquierda, y las flechas de arriba y abajo para la derecha.</p>
+    <canvas id="game" width="900" height="500"></canvas>
+    <script src="{{ url_for('static', filename='game.js') }}"></script>
+  </body>
+</html>
